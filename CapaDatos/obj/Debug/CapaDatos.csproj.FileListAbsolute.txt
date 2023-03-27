@@ -1,0 +1,11 @@
+C:\Users\hpitterson\Documents\Proyectos\Libreria\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\hpitterson\Documents\Proyectos\Libreria\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\hpitterson\Documents\Proyectos\Libreria\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\hpitterson\Documents\Proyectos\Libreria\CapaDatos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hpitterson\Documents\Proyectos\Libreria\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\hpitterson\Documents\Proyectos\Libreria\CapaDatos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hpitterson\Documents\Proyectos\Libreria\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\hpitterson\Documents\Proyectos\Libreria\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\hpitterson\Documents\Proyectos\Libreria\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\hpitterson\Documents\Proyectos\Libreria\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\hpitterson\Documents\Proyectos\Libreria\CapaDatos\obj\Debug\CapaDatos.pdb

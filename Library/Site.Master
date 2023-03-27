@@ -15,8 +15,8 @@
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
 
-  
-        
+
+
     <style>
         .loading-panel {
             background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
@@ -45,19 +45,19 @@
     <link href="Content/Template/style.css" rel="stylesheet" />
 
 
-    
-    
-     <script src="Content/DataTable/init.js"></script>
-    
-   <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-   
+
+
+    <script src="Content/DataTable/init.js"></script>
+
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/4.5.6/tinymce.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/tinymce/4.5.6/jquery.tinymce.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/tinymce/4.5.6/jquery.tinymce.min.js"></script>
 
     <script src="Content/JS/Main.js"></script>
-     <link href="Content/Template/style.css" rel="stylesheet" />
+    <link href="Content/Template/style.css" rel="stylesheet" />
 
     <!-- Vendor CSS Files -->
     <link href="Content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -69,10 +69,10 @@
     <link href="Content/vendor/simple-datatables/style.css" rel="stylesheet">
 
 
-        <!-- Vendor JS Files -->
+    <!-- Vendor JS Files -->
     <script src="Content/vendor/apexcharts/apexcharts.min.js"></script>
     <script src="Content/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    
+
     <script src="Content/vendor/chart.js/chart.umd.js"></script>
     <script src="Content/vendor/echarts/echarts.min.js"></script>
     <script src="Content/vendor/quill/quill.min.js"></script>
@@ -80,6 +80,11 @@
     <script src="Content/vendor/tinymce/tinymce.min.js"></script>
     <script src="Content/vendor/php-email-form/validate.js"></script>
 
+
+
+<%--    sweerAler--%>
+    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
 
@@ -118,10 +123,10 @@
             <!-- End Logo -->
 
             <div class="search-bar">
-               
-                    <input type="text" name="query" placeholder="Search" title="Enter search keyword">
-                    <button type="submit" title="Search"><i class="bi bi-search"></i></button>
-          
+
+                <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+                <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+
             </div>
             <!-- End Search Bar -->
 
@@ -283,7 +288,7 @@
                     <li class="nav-item dropdown pe-3">
 
                         <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-                            <img src="#" alt="Profile" class="rounded-circle">
+                            <img src="Content/img/admin.jpg" alt="Profile" class="rounded-circle">
                             <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
                         </a>
                         <!-- End Profile Iamge Icon -->
@@ -369,14 +374,26 @@
                                 <i class="bi bi-circle"></i><span>Previsualizar Modal</span>
                             </a>
                         </li>
-                  
+
                     </ul>
                 </li>
                 <!-- End Components Nav -->
 
-             
+                <li class="nav-item">
+                    <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+                        <i class="bi bi-journal-text"></i><span>Utilitarios</span><i class="bi bi-chevron-down ms-auto"></i>
+                    </a>
+                    <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                        <li>
+                            <a href="UtilitarioEncriptarYDesencriptar.aspx">
+                                <i class="bi bi-circle"></i><span>Encriptar y Desencriptar</span>
+                            </a>
+                        </li>
+                       
 
-
+                    </ul>
+                </li>
+                <!-- End Forms Nav -->
             </ul>
 
         </aside>

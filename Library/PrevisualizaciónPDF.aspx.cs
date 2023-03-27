@@ -108,7 +108,7 @@ namespace Library
 
             if (oDocumentos != null)
             {
-             //   PrevisualizarPDFConArregloBytes(oDocumentos.pdf);
+                PrevisualizarPDFConArregloBytes(oDocumentos.pdf);
             }
         }
 

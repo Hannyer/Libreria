@@ -9,13 +9,13 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
 
-    <div class="container" style="background-color: aliceblue;">
+    <div class="container" style="background-color: aliceblue; box-shadow: 5px 5px 5px 2px #e0e0d1, 8px 8px 8px 5px #e0e0d1;">
         <div class="row" >
             <asp:UpdatePanel ID="UpdatePanel4" runat="server" style="display: contents;">
                 <ContentTemplate>
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 pt-4 p-0" style=" padding-right: 1rem !important;">
                         <div class="input-group mb-3">
-                            <asp:Label ID="Label17" CssClass="col-lg-4 col-md-5 col-sm-5 col-xs-5 lead" runat="server" Text="Fecha inicial:"></asp:Label>
+                            <asp:Label ID="Label17" Font-Bold="true" CssClass="col-lg-4 col-md-5 col-sm-5 col-xs-5 lead" runat="server" Text="Fecha inicial:"></asp:Label>
                             <asp:TextBox PlaceHolder="Fecha inicial" EnableViewState="false"  onkeydown="return false" CssClass=" col-lg-8 col-md-7 col-sm-7 col-xs-7 pl-lg-0 form-control control-w100 marginTextBox" name="txtFechaInicial" ID="txtFechaInicial" autocomplete="off" runat="server"></asp:TextBox>
                             <asp:CalendarExtender ID="CalendarExtender1" runat="server" TargetControlID="txtFechaInicial" Format="dd/MM/yyyy" />
                         </div>
@@ -23,7 +23,7 @@
 
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 pt-4 p-0">
                         <div class="input-group mb-3">
-                            <asp:Label ID="Label1" CssClass="col-lg-4 col-md-5 col-sm-5 col-xs-5 lead" runat="server" Text="Fecha Final:"></asp:Label>
+                            <asp:Label ID="Label1" Font-Bold="true" CssClass="col-lg-4 col-md-5 col-sm-5 col-xs-5 lead" runat="server" Text="Fecha Final:"></asp:Label>
                             <asp:TextBox PlaceHolder="Fecha inicial" onkeydown="return false"  EnableViewState="false"  AutoPostBack="false" CssClass=" col-lg-8 col-md-7 col-sm-7 col-xs-7 pl-lg-0 form-control control-w100 marginTextBox" name="txtFechaFinal" ID="txtFechaFinal" autocomplete="off" runat="server"></asp:TextBox>
                             <asp:CalendarExtender ID="CalendarExtender2" runat="server" TargetControlID="txtFechaFinal" Format="dd/MM/yyyy" />
                         </div>
@@ -102,7 +102,7 @@
                                     </asp:GridView>
 
                                     <div class="text-center pb-4 ">
-                                       <asp:Label ID="lblMensaje" runat="server" Visible="false" CssClass="lead"></asp:Label>
+                                       <asp:Label ID="lblMensaje" Font-Bold="true" runat="server" Visible="false" CssClass="lead"></asp:Label>
                                     </div>
                                  </ContentTemplate>
                               </asp:UpdatePanel>
@@ -183,7 +183,7 @@
    <script src="Content/DataTable/Buttons-2.2.3/js/buttons.html5.min.js"></script>
    <script src="Content/DataTable/Buttons-2.2.3/js/buttons.print.min.js"></script>
    <script src="Content/DataTable/Buttons-2.2.3/js/buttons.colVis.min.js"></script>
-   <script src="Content/DataTable/init.js"></script>
+  
 
     
    <link href="Content/virtual-select-master/dist/virtual-select.min.css" rel="stylesheet" />

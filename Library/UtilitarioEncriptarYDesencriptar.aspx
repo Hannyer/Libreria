@@ -7,6 +7,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
      <asp:UpdatePanel ID="UpdatePanel2" runat="server">
         <ContentTemplate>
+              <div class="container" style="background-color: aliceblue; box-shadow: 5px 5px 5px 2px #e0e0d1, 8px 8px 8px 5px #e0e0d1; min-height: 32rem !important;">
+      
             <div class="row">
 
                 <div class="col-lg-12 col-md-12 col-sm-12">
@@ -60,7 +62,7 @@
 
                 </div>
             </div>
-
+                  </div>
 
         </ContentTemplate>
     </asp:UpdatePanel>

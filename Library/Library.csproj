@@ -490,6 +490,7 @@
     <Content Include="Content\img\avatar\64-2.jpg" />
     <Content Include="Content\img\Cargar.gif" />
     <Content Include="Content\img\favicon.png" />
+    <Content Include="Content\img\IconoAvatar.png" />
     <Content Include="Content\img\ImagenLogo.png" />
     <Content Include="Content\img\logo.png" />
     <Content Include="Content\img\logo2.png" />

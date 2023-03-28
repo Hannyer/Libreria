@@ -31,14 +31,11 @@ namespace Library
                 {
                     return;
                 }
-
-                Mensaje("Correcto","Bienvenido", true);
-
-                Response.Redirect("Default");
+                string script = "swal({ title:'Usuario correcto!' , text:  'Bienvenido " + usuario.Nombre + "!' , icon: 'success',timer: 2000,buttons: false }).then(function(){window.location = 'Default.aspx';})";
+                ScriptManager.RegisterStartupScript(this, GetType(), "script", script, true);
             }
             catch (Exception ex)
             {
-
                 Mensaje("Error",ex.Message.Replace("'",""),false);
             }
         }

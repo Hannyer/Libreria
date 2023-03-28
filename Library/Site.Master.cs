@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapaEntidad;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -14,7 +15,7 @@ namespace Library
 
             if (!IsPostBack)
             {
-              
+                lblUsuario.InnerText = (Session["Usuario"] as SegUsuarioE).Nombre;
             }
 
 

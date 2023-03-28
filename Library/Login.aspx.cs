@@ -31,6 +31,7 @@ namespace Library
                 {
                     return;
                 }
+                Session["Usuario"] = usuario;
                 string script = "swal({ title:'Usuario correcto!' , text:  'Bienvenido " + usuario.Nombre + "!' , icon: 'success',timer: 2000,buttons: false }).then(function(){window.location = 'Default.aspx';})";
                 ScriptManager.RegisterStartupScript(this, GetType(), "script", script, true);
             }

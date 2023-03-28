@@ -25,5 +25,7 @@ namespace CapaEntidad
             return URL_BASE + "ObtenerDocumentos";
         }
 
+
+
     }
 }

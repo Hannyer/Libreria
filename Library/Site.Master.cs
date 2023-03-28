@@ -15,7 +15,10 @@ namespace Library
 
             if (!IsPostBack)
             {
-                lblUsuario.InnerText = (Session["Usuario"] as SegUsuarioE).Nombre;
+                string[] nombre = (Session["Usuario"] as SegUsuarioE).Nombre.Split(' ');
+                string NombreMostrar = nombre[0].Substring(0, 1) + "." + nombre[1];
+                lblNombreDrop.InnerText = nombre[0] + " " + nombre[1];
+                lblUsuario.InnerText = NombreMostrar;
             }
 
 

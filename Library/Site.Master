@@ -115,7 +115,7 @@
 
             <div class="d-flex align-items-center justify-content-between">
                 <a href="index.html" class="logo d-flex align-items-center">
-                    <img src="#" alt="#">
+                    <img src="Content/img/ImagenLogo.png" alt="#">
                     <span class="d-none d-lg-block">Librería</span>
                 </a>
                 <i class="bi bi-list toggle-sidebar-btn" onclick="OcultarOMostrarMenu();"></i>
@@ -327,7 +327,7 @@
             <ul class="sidebar-nav" id="sidebar-nav">
 
                 <li class="nav-item">
-                    <a class="nav-link " href="Default.aspx">
+                    <a class="nav-link " href="Default.aspx" style="font-size: large;">
                         <i class="bi bi-grid"></i>
                         <span>Inicio</span>
                     </a>
@@ -335,12 +335,12 @@
                 <!-- End Dashboard Nav -->
 
                 <li class="nav-item">
-                    <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+                    <a class="nav-link collapsed" data-bs-target="#components-nav" style="font-size: large;" data-bs-toggle="collapse" href="#">
                         <i class="bi bi-menu-button-wide"></i><span>Modal</span><i class="bi bi-chevron-down ms-auto"></i>
                     </a>
                     <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                         <li>
-                            <a href="PrevisualizaciónPDF.aspx">
+                            <a href="PrevisualizaciónPDF.aspx" style="font-size: large;">
                                 <i class="bi bi-circle"></i><span>Previsualizar Modal</span>
                             </a>
                         </li>
@@ -350,12 +350,12 @@
                 <!-- End Components Nav -->
 
                 <li class="nav-item">
-                    <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+                    <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" style="font-size: large;" href="#">
                         <i class="bi bi-journal-text"></i><span>Utilitarios</span><i class="bi bi-chevron-down ms-auto"></i>
                     </a>
                     <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                         <li>
-                            <a href="UtilitarioEncriptarYDesencriptar.aspx">
+                            <a href="UtilitarioEncriptarYDesencriptar.aspx" style="font-size: large;">
                                 <i class="bi bi-circle"></i><span>Encriptar y Desencriptar</span>
                             </a>
                         </li>

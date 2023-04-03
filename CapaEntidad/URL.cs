@@ -8,8 +8,8 @@ namespace CapaEntidad
 {
     public class URL
     {
-        //public static string URL_BASE = "http://192.168.0.163/Api_Libreria/";
-       public static string URL_BASE = "http://10.6.1.119/Api_Libreria/";
+        public static string URL_BASE = "http://192.168.0.163/Api_Libreria/";
+      // public static string URL_BASE = "http://10.6.1.119/Api_Libreria/";
 
 
         //usuarios BD library

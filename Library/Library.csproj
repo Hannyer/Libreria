@@ -273,6 +273,7 @@
     <Content Include="bin\zh-Hant\Microsoft.Data.Edm.resources.dll" />
     <Content Include="bin\zh-Hant\Microsoft.Data.OData.resources.dll" />
     <Content Include="bin\zh-Hant\System.Spatial.resources.dll" />
+    <Content Include="Carrusel.aspx" />
     <Content Include="Conector.xml" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-5.0.2-dist\css\bootstrap-grid.css" />
@@ -489,6 +490,9 @@
     <Content Include="Content\img\avatar\64-1.jpg" />
     <Content Include="Content\img\avatar\64-2.jpg" />
     <Content Include="Content\img\Cargar.gif" />
+    <Content Include="Content\img\Carrusel1.jpg" />
+    <Content Include="Content\img\Carrusel2.jpg" />
+    <Content Include="Content\img\Carrusel3.jpg" />
     <Content Include="Content\img\favicon.png" />
     <Content Include="Content\img\IconoAvatar.png" />
     <Content Include="Content\img\ImagenLogo.png" />
@@ -1157,6 +1161,13 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Carrusel.aspx.cs">
+      <DependentUpon>Carrusel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Carrusel.aspx.designer.cs">
+      <DependentUpon>Carrusel.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
